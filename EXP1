@@ -1,0 +1,11 @@
+a <- c(1, 2, 3, 4, 5, 6)
+print(a)
+print(class(a))
+
+b <- c("Gokul", "Raghul", "Dhanush")
+print(b)
+print(class(b))
+
+c <- c(TRUE, FALSE, TRUE, FALSE)
+print(c)
+print(class(c))
