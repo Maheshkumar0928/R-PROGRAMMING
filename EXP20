@@ -1,0 +1,37 @@
+name <- c("Arun", "Bala", "Charan")
+
+marks <- matrix(
+  c(80, 85, 90,
+    75, 80, 85,
+    90, 95, 100),
+  nrow = 3,
+  byrow = TRUE
+)
+
+colnames(marks) <- c("Maths", "Science", "English")
+rownames(marks) <- name
+
+cat("Student Marks:\n")
+print(marks)
+
+total <- rowSums(marks)
+average <- rowMeans(marks)
+
+cat("Total Marks:\n")
+print(total)
+
+cat("Average Marks:\n")
+print(average)
+
+cat("Highest Mark:\n")
+print(max(marks))
+
+report <- list(
+  Students = name,
+  Total = total,
+  Average = average,
+  Highest = max(marks)
+)
+
+cat("Student Report:\n")
+print(report)
