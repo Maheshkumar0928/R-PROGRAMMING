@@ -1,0 +1,18 @@
+student <- list(
+  name = "Mahesh",
+  age = 20,
+  marks = c(85, 90, 95),
+  pass = TRUE
+)
+
+print(student)
+
+cat("Name:", student$name, "\n")
+cat("Age:", student[[2]], "\n")
+cat("Marks:", student$marks, "\n")
+cat("Pass:", student$pass, "\n")
+
+student$age <- 21
+
+cat("Updated List:\n")
+print(student)
