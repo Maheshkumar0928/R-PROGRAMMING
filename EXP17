@@ -1,0 +1,15 @@
+category <- factor(
+  c("Low", "Medium", "High", "Low",
+    "High", "Medium", "Low"),
+  levels = c("Low", "Medium", "High"),
+  ordered = TRUE
+)
+
+cat("Factor:\n")
+print(category)
+
+cat("Levels:\n")
+print(levels(category))
+
+cat("Frequency:\n")
+print(table(category))
