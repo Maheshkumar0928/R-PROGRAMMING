@@ -1,0 +1,10 @@
+date1 <- as.Date("2026-01-01")
+date2 <- as.Date("2026-01-15")
+
+cat("First Date:", date1, "\n")
+cat("Second Date:", date2, "\n")
+
+cat("Difference in Days:", date2 - date1, "\n")
+
+cat("After 10 Days:", date1 + 10, "\n")
+cat("Before 5 Days:", date1 - 5, "\n")
