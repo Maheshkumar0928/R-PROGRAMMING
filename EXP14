@@ -1,0 +1,13 @@
+m <- matrix(1:9, nrow = 3, ncol = 3)
+
+cat("Matrix:\n")
+print(m)
+
+cat("First Row:\n")
+print(m[1, ])
+
+cat("Second Column:\n")
+print(m[, 2])
+
+cat("Individual Element:\n")
+print(m[2, 3])
