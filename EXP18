@@ -1,0 +1,9 @@
+text <- "Hello World"
+text2 <- "R Programming"
+
+cat("Original String:", text, "\n")
+cat("String Length:", nchar(text), "\n")
+cat("Substring:", substr(text, 1, 5), "\n")
+cat("Concatenation:", paste(text, text2), "\n")
+cat("Uppercase:", toupper(text), "\n")
+cat("Lowercase:", tolower(text), "\n")
