@@ -1,0 +1,9 @@
+data <- c(10, 20, 30, 20, 40, 50, 30)
+
+cat("Sum:", sum(data), "\n")
+cat("Mean:", mean(data), "\n")
+cat("Median:", median(data), "\n")
+cat("Length:", length(data), "\n")
+cat("Minimum:", min(data), "\n")
+cat("Maximum:", max(data), "\n")
+cat("Range:", range(data), "\n")
