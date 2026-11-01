@@ -1,0 +1,8 @@
+data <- c(30, 10, 20, 10, 40, 30, 50)
+
+cat("Original Data:", data, "\n")
+cat("Sorted Data:", sort(data), "\n")
+cat("Unique Values:", unique(data), "\n")
+cat("Duplicated Values:", duplicated(data), "\n")
+cat("Frequency Table:\n")
+print(table(data))
